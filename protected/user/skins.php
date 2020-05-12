@@ -1,18 +1,27 @@
-<div id="carouselExampleCaptions" data-interval="false" class="carousel slide" data-ride="carousel">
+<div border-style="solid" id="carouselExampleCaptions" data-interval="false" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
 </ol>
   <h1 align="center">Válassz egy skint</h1>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <a href="index.php?P=skin1" name="skin">
+      <a href="index.php?P=skin0" name="skin">
+        <img src="<?=PUBLIC_DIR.'Images/yasuo-default.jpg'?>" class="d-block w-15" alt="Default">
+      </a>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Default</h5>
+      </div>
+    </div>
+        <div class="carousel-item">
+      <a href="index.php?P=skin1">
         <img src="<?=PUBLIC_DIR.'Images/yasuo-blood-moon.jpg'?>" class="d-block w-15" alt="Blood Moon">
       </a>
       <div class="carousel-caption d-none d-md-block">
-        <h5>Blood Moon</h5>
+        <h5>Battleboss</h5>
       </div>
     </div>
     <div class="carousel-item">

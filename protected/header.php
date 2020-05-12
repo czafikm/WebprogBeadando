@@ -1,1 +1,1 @@
-<img id="header" width="100%" height="300px" src="<?=PUBLIC_DIR.'Images/header.png'?>">
+<!--<img id="header" width="100%" height="300px" src="<?=PUBLIC_DIR.'Images/header.png'?>">-->

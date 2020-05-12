@@ -66,4 +66,32 @@ function ChangeSkin($username, $skin) {
 		header('Location: index.php?P=character');
 	return false;
 }
+function Mission($username){
+	$query = "SELECT username, level FROM users WHERE username = :username";
+	$params = [':username' => $username];
+	require_once DATABASE_CONTROLLER;
+	$character = getRecord($query, $params);
+	if ($character['level']>=18) {
+		require_once DATABASE_CONTROLLER;
+		$query = "UPDATE users SET cash=cash+50 WHERE username=:username";
+		$params = [
+			':username' => $username
+		];
+
+		if(executeDML($query, $params)) 
+			header('Location: index.php?P=character');
+	}
+	else{
+		require_once DATABASE_CONTROLLER;
+		$query = "UPDATE users SET cash=cash+50,level=level+1 WHERE username=:username";
+		$params = [
+			':username' => $username
+		];
+
+		if(executeDML($query, $params)) 
+			header('Location: index.php?P=character');
+	}
+
+}
+
 ?>
