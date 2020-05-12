@@ -46,9 +46,24 @@ function UserRegister($email, $password, $fname, $lname, $username) {
 		];
 
 		if(executeDML($query, $params)) 
-			header('Location: index.php?P=login');
+			header('Location: index.php');
 	} 
 	return false;
 }
 
+function ChangeSkin($username, $skin) {
+	$query = "SELECT id FROM users username = :username";
+	$params = [ ':username' => $username ];
+
+	require_once DATABASE_CONTROLLER;
+	$query = "UPDATE users SET skin=:skin WHERE username=:username";
+	$params = [
+		':skin' => $skin,
+		':username' => $username
+	];
+
+	if(executeDML($query, $params)) 
+		header('Location: index.php?P=character');
+	return false;
+}
 ?>

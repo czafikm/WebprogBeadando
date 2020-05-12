@@ -18,9 +18,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['register'])) {
 		echo "Hibás email formátum!";
 	} else if ($postData['password'] != $postData['password1']) {
 		echo "A jelszavak nem egyeznek!";
-	} else if(strlen($postData['password']) <= 6 ) {
+	} else if(strlen($postData['password']) < 5 ) {
 		echo "A jelszó túl rövid! Legalább 6 karakter hosszúnak kell lennie!";
-	} else if(strlen($postData['username']) <= 6 || strlen($postData['username']) >= 24) {
+	} else if(strlen($postData['username']) < 5 || strlen($postData['username']) > 25) {
 		echo "A felhasználónév túl rövid, vagy túl hosszú! Legalább 6 karakter hosszúnak, illetve legfeljebb 24 karakter hosszúnak kell lennie!";
 	} else if(!UserRegister($postData['email'], $postData['password'], $postData['first_name'], $postData['last_name'], $postData['username'])) {
 		echo "Sikertelen regisztráció!";
