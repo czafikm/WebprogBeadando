@@ -7,3 +7,25 @@ body {
      margin: auto;
 
 }
+#headerimg{
+	opacity: 85%;
+}
+hr{
+	height:2px;
+	border-width:0;
+	color:gray;
+	background-color:gray;
+}
+#navbar{
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 20px;
+}
+label{
+	font-weight: bold;
+	font-size: 18px;
+}
+button{
+	font-weight: bold;
+	font-variant: small-caps;
+}

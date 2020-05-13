@@ -5,33 +5,36 @@
 	$character = getRecord($query, $params);
 	if(empty($character)) :
 		header('Location: index.php');
-	else : 
+	else :?>
+		<div align="center"><?php 
 		switch ($character['skin']) {
 			case '1':
-					?><img src="<?=PUBLIC_DIR.'Images/yasuo-blood-moon.jpg'?>" class="d-block w-10" alt="Blood Moon"><?php
+					?><img src="<?=PUBLIC_DIR.'Images/yasuo-blood-moon.jpg'?>" width="15%" alt="Blood Moon"><?php
 				break;
 			case '2':
-					?><img src="<?=PUBLIC_DIR.'Images/yasuo-high-noon.jpg'?>" class="d-block w-10" alt=">High Noon"><?php
+					?><img src="<?=PUBLIC_DIR.'Images/yasuo-high-noon.jpg'?>" width="15%" alt=">High Noon"><?php
 				break;
 			case '3':
-					?><img src="<?=PUBLIC_DIR.'Images/yasuo-odyssey.jpg'?>" class="d-block w-10" alt="Odyssey"><?php
+					?><img src="<?=PUBLIC_DIR.'Images/yasuo-odyssey.jpg'?>" width="15%" alt="Odyssey"><?php
 				break;
 			case '4':
-					?><img src="<?=PUBLIC_DIR.'Images/yasuo-battleboss.jpg'?>" class="d-block w-10" alt="Battleboss"><?php
+					?><img src="<?=PUBLIC_DIR.'Images/yasuo-battleboss.jpg'?>" width="15%" alt="Battleboss"><?php
 				break;
 			case '0':
-					?><img src="<?=PUBLIC_DIR.'Images/yasuo-default.jpg'?>" class="d-block w-10" alt="Blood Moon"><?php
+					?><img src="<?=PUBLIC_DIR.'Images/yasuo-default.jpg'?>" width="15%" alt="Blood Moon"><?php
 				break;
 			
 			default:
-				# code...
+					?><img src="<?=PUBLIC_DIR.'Images/yasuo-default.jpg'?>" width="15%" alt="Blood Moon"><?php
 				break;
 		}
 		?>
-
-		<h2><?=$character['username']?></h2>
+		<hr>
+		<h2>Felhasználónév: <?=$character['username']?></h2>
 		<h4>Szint: <?=$character['level']?></h4>
 		<h4>Pénz: <?=$character['cash']?></h4>
+		</div>
+
 	<?php endif;
 
 ?>
