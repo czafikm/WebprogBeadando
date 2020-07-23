@@ -1,1 +1,0 @@
-<img id="headerimg" width="100%" src="<?=PUBLIC_DIR.'Images/header.jpg'?>">

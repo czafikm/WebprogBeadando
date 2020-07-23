@@ -1,0 +1,71 @@
+body {
+	background-color: silver;
+	font-family: 'Merriweather', sans-serif;
+	font-size: 18px;
+}
+
+.carousel img {
+
+     margin: auto;
+
+}
+
+.asdasd img {
+   width: 100%;
+}
+hr{
+	height:2px;
+	border-width:0;
+	color:gray;
+	background-color:gray;
+}
+label{
+	font-weight: bold;
+	font-size: 18px;
+}
+button{
+	font-weight: bold;
+}
+
+a{
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+#header .header{
+	min-width: 100%;
+	height: auto;
+	position:relative;
+}
+
+
+nav{
+	margin-bottom: 20px;
+}
+#account a{
+	color: black;
+}
+#userDeleteTable text{
+	font-weight: bold;
+}
+td{
+    word-wrap:break-word;
+}
+#flag img{
+	position: absolute;
+}
+#messageTable a{
+	color:black;
+}
+#messageTable a:hover{
+	text-decoration: underline;
+}
+#modalContactForm .modal-footer {  
+  justify-content: space-between;  
+}
+#modalContactForm a{
+	color:black;
+}
+#modalContactForm a:hover{
+	text-decoration: underline;
+}

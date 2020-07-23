@@ -1,0 +1,91 @@
+Edited by: longidass
+Username: longidass -> longidass
+Level: 18 -> 18
+Money: 10000000 -> 100000
+E-Mail: longiqrva@gmail.com -> longiqrva@gmail.com
+Permission: 3 -> 3
+-------------------------
+Edited by: longidass
+Username: Faker -> Faker
+Level: 18 -> 14
+Money: 300 -> 300
+E-Mail: faker@freemail.com -> faker@freemail.com
+Permission: 1 -> 1
+-------------------------
+Edited by: longidass
+Username: longidass -> longidass
+Level: 18 -> 18
+Money: 100000 -> 10000
+E-Mail: longiqrva@gmail.com -> longiqrva@gmail.com
+Permission: 3 -> 3
+-------------------------
+Edited by: longidass
+Username: longidass -> longidass
+Level: 12 -> 12
+Money: 20100 -> 200
+E-Mail: longidas1@gmail.com -> longidas1@gmail.com
+Permission: 3 -> 3
+-------------------------
+Edited by: longidass
+Username: longidass -> longidass
+Level: 12 -> 12
+Money: 200 -> 2001
+E-Mail: longidas1@gmail.com -> longidas1@gmail.com
+Permission: 3 -> 3
+-------------------------
+Edited by: longidass
+Username: longidass -> longidass
+Level: 12 -> 12
+Money: 2001 -> 20010
+E-Mail: longidas1@gmail.com -> longidas1@gmail.com
+Permission: 3 -> 3
+-------------------------
+Edited by: longidass
+Username: teszt -> teszt
+Level: 12 -> 12
+Money: 20100 -> 100
+E-Mail: longidas1@gmail.com -> longidas1@gmail.com
+Permission: 3 -> 3
+-------------------------
+Edited by: longidass
+Username: teszt -> teszt
+Level: 12 -> 12
+Money: 100 -> 1000
+E-Mail: longidas1@gmail.com -> longidas1@gmail.com
+Permission: 3 -> 3
+-------------------------
+Edited by: longidass
+Username: longidass -> longidass
+Level: 12 -> 12
+Money: 20010 -> 2000
+E-Mail: longidas1@gmail.com -> longidas1@gmail.com
+Permission: 3 -> 3
+-------------------------
+Edited by: longidass
+Username: longidass -> longidass
+Level: 12 -> 12
+Money: 2000 -> 123456789
+E-Mail: longidas1@gmail.com -> longidas1@gmail.com
+Permission: 3 -> 3
+-------------------------
+Edited by: longidass
+Username: longidass -> longidass
+Level: 12 -> 12
+Money: 123456789 -> 634672
+E-Mail: longidas1@gmail.com -> longidas1@gmail.com
+Permission: 3 -> 3
+-------------------------
+Edited by: longidass
+Username: longidass -> longidass
+Level: 44 -> 44
+Money: 2650 -> 2650
+E-Mail: longidas1@gmail.com -> longidas1@gmail.com
+Permission: 3 -> 3
+-------------------------
+Edited by: longidass
+Username: longidass -> longidass
+Level: 44 -> 44
+Money: 2650 -> 0
+E-Mail: longidas1@gmail.com -> longidas1@gmail.com
+Permission: 3 -> 3
+-------------------------
